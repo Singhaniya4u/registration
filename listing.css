@@ -1,0 +1,240 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+div {
+  text-align: center;
+}
+button {
+  background-color: #586470;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search input {
+  width: 200px;
+  height: 29px;
+  border: 1px solid #586470;
+  /* margin-left: 600px; */
+  margin-top: 10px;
+  float: left;
+  display: inline;
+}
+.top {
+  display: block;
+  margin: 0;
+}
+
+.new {
+  vertical-align: middle;
+  float: right;
+  margin-right: 100px;
+}
+button:hover {
+  background-color: #5d7ea1;
+}
+
+table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.selected-row {
+  background-color: blue;
+}
+
+.navbar {
+  width: auto;
+  background-color: #333;
+  color: white;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+}
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar td {
+  padding: 15px 20px;
+  width: auto;
+}
+
+button a {
+  display: inline-block;
+  width: 100%;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+td .action {
+  display: flex;
+  gap: 10px;
+  margin: 0;
+}
+
+.edit-btn,
+.delete-btn {
+  padding: 8px 12px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+td button {
+  width: fit-content;
+}
+
+.navbar tr {
+  width: 200px;
+  justify-items: left;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar td:hover {
+  background-color: #000000;
+}
+
+.navbar td a:hover {
+  text-decoration: underline;
+}
+
+li {
+  float: left;
+}
+
+th {
+  background-color: #515e6d;
+  color: white;
+  padding: 10px;
+}
+
+td {
+  padding: 20px;
+  border-bottom: 1px solid #1d1c1c;
+}
+
+table tr td:hover {
+  background-color: rgb(124, 122, 122);
+  color: black;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 70%; /* Could be more or less, depending on screen size */
+}
+@keyframes popup {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.hide {
+  display: none;
+}
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  display: block;
+}
+
+
+label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+/*AJAX requests*/
+
+.sidebar {
+  width: 300px; /* Adjust as needed */
+  background-color: #f0f0f0; /* Sidebar background color */
+  height: 100vh; /* Full height of the viewport */
+  position: fixed; /* Fixed position to stay on the side */
+  overflow: auto; /* Enable scrolling */
+  padding: 10px; /* Optional padding */
+}
+
+.scrollable-container {
+  max-height: 80vh; /* Maximum height of the scrollable area */
+  overflow-y: auto; /* Vertical scrolling */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.edit-btn, .delete-btn {
+  margin-right: 5px;
+}

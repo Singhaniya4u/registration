@@ -1,0 +1,120 @@
+h2{
+    text-align: center;
+}
+.head{
+    background-color: rgb(111, 126, 139);
+    color: rgb(2, 0, 0);
+}
+td h3{
+    text-align: center;
+}
+
+.footer {
+        background-color: rgb(111, 126, 139); 
+        color: rgb(0, 0, 0);         
+        text-align: center;    
+        padding: 20px;         
+        position:fixed;
+        bottom: 0;             
+        width: 100%;           
+        font-family: Arial, sans-serif; 
+        box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); 
+    }
+    
+/* form{
+    border: 1px solid rgb(41, 74, 94);
+} */
+
+.basic-details .contact-details .education-details{
+    text-align: center;
+    vertical-align: middle;
+}
+td{
+    border:1px solid rgb(61, 60, 60);
+    vertical-align: middle;
+    padding-left: 30px;
+    width: 30vw;
+    height: 50px;
+}
+
+input{
+    width: 360px;
+    height: 30px;
+}
+select{
+    width: 360px;
+    height: 30px;
+}
+
+#register, #reset{
+    background-color: rgb(111, 126, 139);
+    width: 100px;
+    height: 30px;
+}
+
+nav{
+    border: 1px solid rgb(111, 126, 139);
+    background-color: rgb(115, 123, 143);
+}
+/* li {
+    display: inline;
+    margin-left: 20px;
+    text-align: center;
+}
+li:hover{
+    background-color: white;
+} */
+#male, #female{
+    min-width: fit-content;
+    max-width: fit-content;
+    vertical-align: middle;
+}
+
+.board{
+    min-width: fit-content;
+    max-width: fit-content;
+    vertical-align: middle;
+}
+#yop{
+    width: 80px;
+    text-align: center;
+}
+
+#address{
+    width: 360px;
+}
+
+table{
+    margin:auto;    
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(111, 126, 139);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(81, 91, 100);
+  }

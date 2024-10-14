@@ -1,9 +1,9 @@
 <?php
 // db.php
 
-$servername = "10.10.10.10:3306"; 
+$servername = ""; 
 $username = "root"; 
-$password = "c0relynx"; 
+$password = ""; 
 $dbname = "student_portal"; 
 
 // Create connection
